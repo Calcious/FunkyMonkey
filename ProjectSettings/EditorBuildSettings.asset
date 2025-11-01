@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: aaa0a7badaec75a44a680a740bba322d
+  - enabled: 1
+    path: Assets/Scenes/LevelSelect.unity
+    guid: aa43e15fefffebe4d822dea966f41b14
+  - enabled: 1
+    path: Assets/Scenes/Hub.unity
+    guid: e7a23f3990741ce409d4313c0d19c77c
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: c487daf7a625520438da27c8dd0843af
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 0c67e51650404dd46961283b0573c563
+  - enabled: 1
+    path: Assets/Scenes/Grunge.unity
+    guid: 93c17830aef324f41804cea0992470ae
+  - enabled: 1
+    path: Assets/Scenes/Dub.unity
+    guid: 7e98ceb2cbe2ddd4a8f01129da8e8cd1
+  - enabled: 1
+    path: Assets/Scenes/Emo.unity
+    guid: 5c214e42e16898841b05b730fceb1371
+  - enabled: 1
+    path: Assets/Scenes/Metal.unity
+    guid: 4e0811d4ff926a540bebf6d4d6f461a5
+  - enabled: 1
+    path: Assets/Scenes/Pop.unity
+    guid: 2e8fba62f56649c499f197b02e06e493
+  - enabled: 1
+    path: Assets/Scenes/Punk.unity
+    guid: cb191b72575c8b440bd24658d62feb90
+  - enabled: 1
+    path: Assets/Scenes/Synth.unity
+    guid: e07217f791efd4841964700be68f6a29
+  - enabled: 1
+    path: Assets/Scenes/Rap.unity
+    guid: d1d6d6853e82d114796706c9d3beba44
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_UseUCBPForAssetBundles: 0
