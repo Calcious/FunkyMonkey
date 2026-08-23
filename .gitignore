@@ -17,6 +17,9 @@ sysinfo.txt
 # Unity3D Generated File On Crash Reports
 *.log
 
+# Bezi Sidekick local settings
+.bezisidekick/
+
 # Visual Studio cache/options
 .vs/
 *.csproj

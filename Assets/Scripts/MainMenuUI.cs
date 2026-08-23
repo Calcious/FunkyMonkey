@@ -6,6 +6,9 @@ using System.Collections;
 
 public class MainMenuUI : MonoBehaviour
 {
+    [Header("Menu Buttons")]
+    public Button continueButton;
+
     [Header("Transition Settings")]
     public GameObject transitionPanel;
     public Image fadeImage;
@@ -29,6 +32,24 @@ public class MainMenuUI : MonoBehaviour
 
     private bool skipRequested = false;
     public static bool skipAllIntros = false;
+
+    private void Start()
+    {
+        UpdateContinueButton();
+    }
+
+    private void UpdateContinueButton()
+    {
+        if (continueButton != null)
+        {
+            continueButton.gameObject.SetActive(SaveManager.HasSaveData());
+        }
+    }
+
+    public void ContinueGame()
+    {
+        SaveManager.Instance.LoadAndApplyGame();
+    }
 
     public void StartGame()
     {
