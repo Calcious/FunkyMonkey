@@ -11223,11 +11223,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41c756f215148a4459839d2e8e542654, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HubMenuManager
-  hubMenuUI: {fileID: 0}
-  contentText: {fileID: 0}
-  emblemSelectContent: {fileID: 0}
-  customizationContent: {fileID: 0}
-  option3Content: {fileID: 0}
+  hubMenuUI: {fileID: 2152038865669242776}
+  contentText: {fileID: 6308908041417931594}
+  emblemSelectContent: {fileID: 5971894978351750691}
+  customizationContent: {fileID: 7380664800038117165}
+  option3Content: {fileID: 8033751969065780051}
   readOnlyIndicator: {fileID: 8181547910550163650}
   readOnlyText: {fileID: 623123924403836823}
 --- !u!1 &2182023288791684794

@@ -18,6 +18,15 @@ public class PauseMenuManager : MonoBehaviour
     private void OnEnable() => controls.Enable();
     private void OnDisable() => controls.Disable();
 
+    private void Start()
+    {
+        if (pauseMenuUI != null)
+            pauseMenuUI.SetActive(false);
+
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
+
     void TogglePause()
     {
         if (isPaused)

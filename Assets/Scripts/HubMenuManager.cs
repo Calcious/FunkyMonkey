@@ -46,15 +46,6 @@ public class HubMenuManager : MonoBehaviour
         Debug.Log("[HubMenuManager] OnDisable - controls disabled");
     }
 
-    private void Update()
-    {
-        if (Keyboard.current != null && Keyboard.current.mKey.wasPressedThisFrame)
-        {
-            Debug.Log("[HubMenuManager] M key pressed! Toggling menu");
-            ToggleMenu();
-        }
-    }
-
     private void OnPausePressed()
     {
         if (isMenuOpen)
@@ -63,7 +54,7 @@ public class HubMenuManager : MonoBehaviour
         }
     }
 
-    private void ToggleMenu()
+    public void ToggleMenu()
     {
         Debug.Log($"[HubMenuManager] ToggleMenu called. isMenuOpen: {isMenuOpen}");
         if (isMenuOpen)

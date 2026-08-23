@@ -8,6 +8,7 @@ public class MainMenuUI : MonoBehaviour
 {
     [Header("Menu Buttons")]
     public Button continueButton;
+    public GameObject[] menuButtonsToHideOnStart;
 
     [Header("Transition Settings")]
     public GameObject transitionPanel;
@@ -54,6 +55,16 @@ public class MainMenuUI : MonoBehaviour
     public void StartGame()
     {
         skipAllIntros = false;
+
+        if (menuButtonsToHideOnStart != null)
+        {
+            foreach (var button in menuButtonsToHideOnStart)
+            {
+                if (button != null)
+                    button.SetActive(false);
+            }
+        }
+
         StartCoroutine(TransitionToLevel());
     }
 

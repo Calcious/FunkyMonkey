@@ -31,7 +31,7 @@ public class GlobalHubMenuKeyListener : MonoBehaviour
             if (hubMenuManager != null)
             {
                 Debug.Log("[GlobalHubMenuKeyListener] Calling ToggleMenu!");
-                hubMenuManager.SendMessage("ToggleMenu", SendMessageOptions.DontRequireReceiver);
+                hubMenuManager.ToggleMenu();
             }
             else
             {
